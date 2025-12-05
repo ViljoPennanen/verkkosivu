@@ -5,26 +5,51 @@
 }
 
 .container div {
-    background-color: brown;
-    margin: 10px;
-    padding: 15px;
+
     font-size: 20px;
+    margin: 10px;
+    border: 15px;
 }
 
 
 .side {
     flex-direction: row;
     flex: 20%;
-    background-color: cadetblue;
+    background-color: black;
+    color: white;
     padding: 20px;
+}
+
+.sivu {
+    background-color: white;
+    color: black;
 }
 
 
 .main {
     text-align: center;
     flex: 80%;
-    background-color: blue;
+    background-color: brown;
     padding: 20px;
+}
+
+.pää {
+    background-color: whitesmoke;
+
+}
+
+.ansiot {
+    padding: 15px;
+    background-color: rgb(117, 133, 255);
+    margin: 10px;
+}
+
+.mina {
+    width: 300px;
+    margin: auto;
+    border: 5px solid black;
+
+
 }
 
 @media screen and (max-width: 700px) {
@@ -84,6 +109,7 @@ nav {
     padding: 1px;
 
 
+
     ul {
         list-style-type: none;
         margin: 5px;
@@ -118,10 +144,5 @@ button {
 
 button:hover {
     background-color: rgb(59, 30, 252);
-
-}
-
-p {
-    background-color: rgb(149, 174, 197);
 
 }
