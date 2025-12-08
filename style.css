@@ -52,7 +52,7 @@
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
 
     .container,
     .navbar {
@@ -163,7 +163,7 @@ div.gallery-item {
 }
 
 div.gallery-item:hover {
-    border: 5px solid yellow;
+    border: 5px solid blue;
 }
 
 div.gallery-item img {
